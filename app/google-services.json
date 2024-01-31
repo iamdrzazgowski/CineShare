@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943957816137",
+    "project_id": "cineshare-fbdb8",
+    "storage_bucket": "cineshare-fbdb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943957816137:android:69e128632c39e749a06098",
+        "android_client_info": {
+          "package_name": "com.example.cineshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCggAts316aS3rh74Z9CHicezRBkXIaJKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!-- Tekst pod nazwą -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="411dp"
+        android:layout_height="422dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/main_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:text="CineShare"
+        android:textColor="@color/textMain_color"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CineShare to aplikacja, która pozwala oglądać filmy i programy telewizyjne, jednocześnie dzieląc się nimi z innymi, tworząc społeczność miłośników kina."
+        android:textSize="15sp"
+        android:textColor="@color/textSecond_color"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="301dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="40dp"
+        android:text="Logowanie"
+        android:textColor="#fff"
+        android:background="@drawable/singin_button_background"
+        android:elevation="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.8dp"
+            android:layout_weight="1"
+            android:background="#aaa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" OR "
+            android:textSize="14sp"
+            android:textColor="#aaa" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.8dp"
+            android:layout_weight="1"
+            android:background="#aaa" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="301dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:text="Rejestracja"
+        android:textColor="#555"
+        android:background="@drawable/singup_button_background"
+        android:elevation="80dp" />
+
+
+</LinearLayout>
